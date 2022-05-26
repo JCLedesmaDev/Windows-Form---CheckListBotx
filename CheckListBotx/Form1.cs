@@ -25,6 +25,7 @@ namespace CheckListBotx
         {
         }      
 
+
         private void btnAddOption(object sender, EventArgs e)
         {
             checkedListBox1.Items.Add(textAddCheck.Text);
@@ -47,6 +48,7 @@ namespace CheckListBotx
         private void ShowCheck_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Su estado civil es: " + checkOpciones);
+
             eventCheckClick("quitCheck");
         }                
 
